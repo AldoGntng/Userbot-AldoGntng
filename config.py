@@ -1,5 +1,5 @@
-# Credits: @mrismanaziz
-# Copyright (C) 2022 Pyro-ManUserbot
+# Credits: @Panikvrtl
+# Copyright (C) 2022 Aldo-Userbot
 #
 # This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
 # PLease read the GNU Affero General Public License in
@@ -17,6 +17,7 @@ load_dotenv("config.env")
 
 
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "⚡️")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/5_6310022808613160862.mp4")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
